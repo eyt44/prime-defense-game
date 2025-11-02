@@ -44,7 +44,7 @@ function GameBoard() {
       setEnemies((prev) => [
         ...prev.filter((e) => e.id !== id),
         ...factors.map((f, i) => ({
-          id: `${Date.now()}_${i}`,
+          id: '${Date.now()}_${i}',
           value: f,
           x: x + offsets[i % offsets.length],
           y: y + offsets[i % offsets.length],

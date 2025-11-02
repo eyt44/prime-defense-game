@@ -7,8 +7,8 @@ export default function NumberEnemy({ id, value, x, y, shoot }) {
       style={{
         width: "60px",
         height: "60px",
-        left: `${x}px`,
-        top: `${y}px`,
+        left: '${x}px',
+        top: '${y}px',
         userSelect: "none",
       }}
     >
